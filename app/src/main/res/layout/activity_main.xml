@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            tools:context=".PrincipalActivity"
+            >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="ToDo List"
+            android:id="@+id/textView"
+            android:textSize="30sp"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TableRow
+                android:id="@+id/row"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                
+                >
+
+
+                <EditText
+                    android:id="@+id/etNewTask"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="LALALALA"
+                    android:textSize="18sp"
+                    >
+                </EditText>
+
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:background="#FFFFFF">
+        <Button  android:id="@+id/btnIniciar"
+            android:layout_width="85dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Iniciar"/>
+    </LinearLayout>
+
+ </LinearLayout>
+
+
+
+
+
